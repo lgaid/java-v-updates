@@ -6,7 +6,7 @@ public class AppleTest {
 
     public static void main(String[] args) {
 
-        List<Apples> inventory = new ArrayList<Apples>();
+        List<Apples> inventory = new ArrayList<>();
         inventory.add(new Apples(300,Color.GREEN));
         inventory.add(new Apples(100,Color.RED));
         inventory.add(new Apples(200,Color.GREEN));
