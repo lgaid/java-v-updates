@@ -21,6 +21,18 @@ public class Main {
 
         System.out.println("******************************");
 
+        FootballPlayer joe = new FootballPlayer("Joe");
+        BaseballPlayer pat = new BaseballPlayer("Pat");
+        SoccerPlayer beckham = new SoccerPlayer("Beckham");
+
+        Team<SoccerPlayer> liverpool = new Team<>("Liverpool");
+
+       // liverpool.addPlayer(joe);
+       // liverpool.addPlayer(pat);
+        liverpool.addPlayer(beckham);
+
+
+
 
 
     }
