@@ -1,5 +1,9 @@
+package com.cydeo.tasks.p1;
+
+import com.cydeo.Color;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+
 import lombok.Setter;
 import lombok.ToString;
 
@@ -8,14 +12,10 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 
+public class Orange {
 
-public class Apples {
-
-private int weight;
-private Color color;
-
-
-
+    private int weight;
+     private Color color;
 
 
 }

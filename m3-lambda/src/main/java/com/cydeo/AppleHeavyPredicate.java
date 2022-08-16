@@ -1,3 +1,5 @@
+package com.cydeo;
+
 public class AppleHeavyPredicate  implements ApplePredicate{
 
 
