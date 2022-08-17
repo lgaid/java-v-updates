@@ -15,7 +15,7 @@ public class UserTest {
         users.add(new User("Tom","Evan",25));
         users.add(new User("Emma","Pollard",55));
 
-        printName(users,user -> true;);
+        printName(users,user -> true);
 
         printName(users,user -> user.getLastName().startsWith("E"));
 
