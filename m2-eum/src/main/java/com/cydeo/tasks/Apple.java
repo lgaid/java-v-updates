@@ -1,3 +1,5 @@
+package com.cydeo.tasks;
+
 public class Apple {
     int weight;
 

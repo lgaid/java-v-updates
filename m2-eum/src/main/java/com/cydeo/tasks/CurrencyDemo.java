@@ -1,3 +1,5 @@
+package com.cydeo.tasks;
+
 public class CurrencyDemo {
 
     public static final CurrencyDemo PENNY = new CurrencyDemo();
