@@ -1,9 +1,6 @@
 package com.cydeo.tasks.p1;
 
-import com.cydeo.Color;
-
-import javax.xml.stream.FactoryConfigurationError;
-import java.util.ArrayList;
+import com.cydeo.Color;import java.util.ArrayList;
 import java.util.List;
 
 
@@ -29,7 +26,7 @@ public class OrangeTest {
 
         OrangeFormatter fancyFormatter = orange -> {
             String ch = orange.getWeight() > 200 ? "Heavy" : "Light";
-            return  "A" + ch + " " + orange.getColor() + " orange";
+            return  "A " + ch + " " + orange.getColor() + " orange";
         };
 
         prettyPrintApple(inventory, fancyFormatter);
