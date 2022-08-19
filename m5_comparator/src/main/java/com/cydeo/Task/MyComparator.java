@@ -1,4 +1,4 @@
-package com.cydeo;
+package com.cydeo.Task;
 
 import java.util.Comparator;
 

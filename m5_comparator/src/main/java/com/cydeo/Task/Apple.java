@@ -1,12 +1,10 @@
-package com.cydeo;
+package com.cydeo.Task;
 
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-
-import java.awt.*;
 
 @Getter
 @Setter
