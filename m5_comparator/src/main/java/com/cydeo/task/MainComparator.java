@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class Main1 {
+public class MainComparator {
 
     public static void main(String[] args) {
 

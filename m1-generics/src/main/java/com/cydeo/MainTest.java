@@ -2,13 +2,13 @@ package com.cydeo;
 
 import java.util.ArrayList;
 
-public class Main {
+public class MainTest {
 
 
     public static void main(String[] args) {
 
 
-        ArrayList<Integer> items = new ArrayList<Integer>(); // ArrayList only accepts objects belongs to Integer class
+        ArrayList<Integer> items = new ArrayList<>(); // ArrayList only accepts objects belongs to Integer class
 
         items.add(1);
         items.add(2);
@@ -21,8 +21,8 @@ public class Main {
 
         System.out.println("******************************");
 
-        FootballPlayer joe = new FootballPlayer("Joe");
-        BaseballPlayer pat = new BaseballPlayer("Pat");
+       // FootballPlayer joe = new FootballPlayer("Joe");
+       // BaseballPlayer pat = new BaseballPlayer("Pat");
         SoccerPlayer beckham = new SoccerPlayer("Beckham");
 
         Team<SoccerPlayer> liverpool = new Team<>("Liverpool");

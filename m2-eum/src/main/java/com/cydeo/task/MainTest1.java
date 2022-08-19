@@ -1,6 +1,6 @@
 package com.cydeo.task;
 
-public class Main {
+public class MainTest1 {
 
     public static void main(String[] args) {
 
