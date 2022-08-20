@@ -24,7 +24,7 @@ public class StreamOperations {
 
         System.out.println("distinct:");
 
-        Stream<Integer> str = list.stream() // can be assigned to a stream because we dont close it in this statement
+        Stream<Integer> str = list.stream() // can be assigned to a stream because we don't close it in this statement
                 .filter(i -> i % 2 == 0)
                 .distinct(); // stream still not closed
 
