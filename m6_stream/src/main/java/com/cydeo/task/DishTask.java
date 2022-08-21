@@ -14,6 +14,8 @@ public class DishTask {
                 .map(Dish::getName)
                 .forEach(System.out ::println);
 
+        System.out.println("------------------------------------------------");
+
 
         //Print the length of the name of each dish
         DishData.getAll().stream()
@@ -23,6 +25,7 @@ public class DishTask {
                 .map(String::length)
                 .forEach(System.out ::println);
 
+        System.out.println("----------------------------------------------------");
 
         //Print three high caloric dish name (>300)
         DishData.getAll().stream()
@@ -31,6 +34,7 @@ public class DishTask {
                 .limit(3)
                 .forEach(System.out::println);
 
+        System.out.println("---------------------------------------------------");
 
         //Print all dish name that are below 400 calories in sorted
 
