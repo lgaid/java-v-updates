@@ -5,20 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.cydeo</groupId>
-    <artifactId>m8-new-version-updates</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>m7-optional-bigDecimal</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>moduleJava9</module>
-    </modules>
 
     <properties>
-        <maven.compiler.source>18</maven.compiler.source>
-        <maven.compiler.target>18</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-
-
 
 </project>
